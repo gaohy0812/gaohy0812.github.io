@@ -19,3 +19,8 @@ kramdown:
   input: GFM
   # do not replace newlines by <br>s
   hard_wrap: false
+
+author:
+  name: '松鼠_Gaohy'
+  email: gaohy0812@163.com
+  github_username:  gaohy0812

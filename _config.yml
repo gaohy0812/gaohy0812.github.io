@@ -9,7 +9,7 @@ google_analytics: UA-XXXXXX-X
 destination: _site
 markdown: kramdown
 highlighter: rouge
-
+url: 'https://www.gaohy.cloud'
 sass:
     sass_dir: _sass
     style: compressed

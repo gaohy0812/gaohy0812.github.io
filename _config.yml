@@ -3,3 +3,19 @@ plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 title: [松鼠]
 description: [松鼠的科研札记]
+show_downloads: ["true" or "false" (unquoted) to indicate whether to provide a download URL]
+google_analytics: UA-XXXXXX-X
+# Build settings
+destination: _site
+markdown: kramdown
+highlighter: rouge
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
